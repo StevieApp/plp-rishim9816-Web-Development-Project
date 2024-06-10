@@ -1,0 +1,52 @@
+Cloning a Repository:
+git clone https://github.com/rishim9816/Web-Development-Project.git
+
+Forking a Repository:
+
+git clone https://github.com/StevieApp/plp-rishim9816-Web-Development-Project.git
+
+Creating and Switching Branches:
+git branch feature-update
+git checkout feature-update
+
+Making Changes and Committing:
+Added txt file
+
+git add .
+git commit -m "new file txt"
+
+Merging Changes:
+git checkout master
+git merge feature-update
+
+Creating Conflicts:
+Make conflicting changes in the 'Myfiles.txt' file 
+Commit the changes
+
+git add .
+git commit -m "conflict"
+
+Resolving Conflicts:
+Create a new branch and switch to it
+
+git branch fix-conflict
+git checkout fix-conflict
+
+Manually edited the conflicts in the 'Myfiles.txt'.
+Commit and merge the changes
+
+git add .
+git commit -m " conflict 2 resolve"
+git checkout main
+git merge fix-conflict
+
+
+Enabling GitHub Pages:
+Created index.html with basic HTML content about PLP.
+Push the changes to master.'
+
+https://stevieapp.github.io/plp-rishim9816-Web-Development-Project/
+
+Git issue
+https://github.com/selemxmn/ngx-print/issues/185
+
